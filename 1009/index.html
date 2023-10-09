@@ -1,9 +1,65 @@
 <html>
 <head>
+    <link rel="stylesheet" href="site.css"/>
     <title>MIS 3033 October 9 Dany Ghreichi</title>
+
+    <style>
+        #div2
+        {
+            background-color:brown;
+        }
+        #div3 
+        {
+            background-color: red;
+        }
+        #div4 
+        {
+            background-color: orange;
+        }
+        #div5 
+        {
+            background-color: pink;
+        }
+        #div6
+        {
+            background-color: lightblue;
+        }
+
+    </style>
+
 </head>
 <body>
-    <div style="width:200px;height:100px;background-color:blueviolet;margin-left:50px;padding-top:20px;padding-left:30px;">
+    <span class="titlesytle">Box Sizing</span>
+    <div style="color:red;" class="divstyle1 titlesytle">div1</div>
+
+    <div style="padding-left:20px;box-sizing:border-box" class="divstyle1 titlesytle">div2</div>
+
+    <br />
+
+    <span class="titlesytle">CSS Selectors</span>
+
+    <div id="main" style="position:relative;background-color:aquamarine;height:400px;">
+        <div style="position:sticky;top:3px;" id="div1">div1</div>
+        <div id="div2">div2</div>
+        <div id="div3">div3</div>
+
+        <div style="position:absolute;" id="div4">div4</div>
+
+        <div style="position:relative;left:10px;top:10px" id="div5">div5</div>
+
+        <div id="div6">div6</div>
+
+        <div id="menu" style="position:fixed;right:0;top:100px; width:70px;height:60px;background-color:palevioletred">
+            Option 1<br/>
+            Option 2<br/>
+            Option 3
+        </div>
+
+    </div>
+
+    <br/>
+
+    <div style="width:200px;height:100px;background-color:blueviolet;margin-left:50px;padding-top:20px;padding-left:30px">
         div1
     </div>
 

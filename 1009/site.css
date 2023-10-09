@@ -1,0 +1,37 @@
+.titlesytle 
+{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.divstyle1 
+{
+    width: 40px;
+    height: 50px;
+    border-style: solid;
+    background-color: aqua;
+}
+
+* 
+{
+    /*      border-style:dashed;
+            border-width:5px;
+            border-color:deeppink;*/
+}
+
+div 
+{
+    border-width: 5px;
+    border-color: darkslategray;
+}
+
+span 
+{
+}
+
+#div1 
+{
+    background-color: coral;
+    height: 30px;
+}
