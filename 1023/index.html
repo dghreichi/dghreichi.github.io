@@ -1,15 +1,173 @@
 <html>
+
 <head>
+
     <title>[] Dany Ghreichi October 23, 2023 Exam 2 Practice</title>
+
+    <style>
+        #main
+        {
+            background-color:aquamarine;
+            width:1200px;
+            margin-left:auto;
+            margin-right:auto;
+        }
+        #h
+        {
+            background-color:azure;
+
+        }
+        #b1
+        {
+            background-color:beige;
+            display:flex;
+            flex-direction:row;
+        }
+        #b2
+        {
+            background-color:#ededed;
+
+        }
+        #f
+        {
+            background-color:#faf7f7;
+            color:dimgray;
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+        }
+        .t
+        {
+            font-size:30px;
+            font-weight:bold;
+
+        }
+        #left
+        {
+            background-color:yellow;
+            width:400px;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+        }
+        #right
+        {
+            background-color:red;
+            width:800px;
+        }
+        #up
+        {
+            background-color:firebrick;
+        }
+        #down
+        {
+            background-color:lightblue;
+            display:flex;
+            flex-direction:row;
+        }
+        #links
+        {
+            background-color:darkslateblue;
+            width:400px;
+            height:200px;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+        }
+    </style>
+
 </head>
+
 <body>
 
-    <img src="static/head1.png" style="width:100px;" />
-    <img src="static/email.png" style="width:100px;" />
-    <img src="static/linkedin.png" style="width:100px;" />
-    <img src="static/twitter.png" style="width:100px;" />
-    <img src="static/instagram.png" style="width:100px;" />
+    <div id="main">
+        <div id="h">
+            <span style="color:dodgerblue;font-size:20pt;font-weight:bold;">Dany Ghreichi's Website</span>
+        </div>
 
+        <div id="b1">
+            <div id="left">
+                <div>
+                    <img src="static/head1.png" style="width:200px;border-radius:50%;"/>
+                </div>
 
+                <div style="font-size:30px;">
+                    Dany Ghreichi
+                </div>
+
+                <div>Student in Management Information Systems</div>
+
+                <div>The University of Oklahoma</div>
+
+                <div id="links">
+                    <a href="mailto:dany.k.ghreichi-1@ou.edu" target="_blank"><img src="static/email.png" style="width:30px;" /></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="static/linkedin.png" style="width:30px;" /></a>
+                    <a href="https://twitter.com/" target="_blank"><img src="static/twitter.png" style="width:30px;" /></a>
+                    <a href="https://www.instagram.com" target="_blank"><img src="static/instagram.png" style="width:30px;" /></a>      
+                </div>
+
+            </div>
+
+            <div id="right">
+                <div id="up">
+                    <span class="t">Biography</span><br />
+
+                    <br />I am a Senior student in Management Information Systems at The University of Oklahoma.<br />
+
+                    My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.<br />
+
+                    For more information, please refer to my CV.<br />
+                </div>
+                <div id="down">
+                    <div>
+                        <span class="t">Interests</span>
+                        <ol>
+                            <li>Analyst/Programmer</li>
+                            <li>Business Analyst</li>
+                            <li>Database Administration</li>
+                            <li>Web Developer</li>
+                            <li>Data Scientists</li>
+
+                        </ol>                  
+                    </div>
+
+                    <div>
+                        <span class="t">Education</span>
+                        <ul>
+                            <li>
+                                M.S. in Management Information Systems, 2024<br />
+                                The University of Oklahoma
+                            </li>
+                            <li>
+                                B.E. in Management Information Systems, 2022<br />
+                                The University of Oklahoma
+                            </li>
+                        </ul>
+
+                        
+
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="b2">
+            <span class="t">Recent News</span>
+            <ul style="margin-bottom:0;">
+                <li>Leanring C# Web Application Design</li>
+                <li>Learning C# EF</li>
+            </ul>
+
+        </div>
+
+        <div id="f">
+            <span>Designed and Published by Dany Ghreichi</span>
+        </div>
+
+    </div>
 </body>
 </html>
